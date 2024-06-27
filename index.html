@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css" />
+    <link rel="shortcut icon" href="./calculator.png" type="image/x-icon">
+</head>
+
+<body>
+    <section id="calculator_frame">
+
+        <!--    screen  -->
+        <input id="screen" placeholder="0" disabled><br>
+        <!--    screen ends    -->
+
+        <!--    buttons    -->
+        <input type="button" class="btn" value="7">
+        <input type="button" class="btn" value="8" >
+        <input type="button" class="btn" value="9">
+        <input type="button" class="btn" value="/">
+
+        <br>
+
+        <input type="button" class="btn" value="4">
+        <input type="button" class="btn" value="5">
+        <input type="button" class="btn" value="6">
+        <input type="button" class="btn" value="*">
+
+        <br>
+
+        <input type="button" class="btn" value="1">
+        <input type="button" class="btn" value="2">
+        <input type="button" class="btn" value="3">
+        <input type="button" class="btn" value="+">
+
+        <br>
+
+        <input type="button" class="btn" value=".">
+        <input type="button" class="btn" value="0">
+        <input type="button" class="btn" value="%">
+        <input type="button" class="btn" value="-">
+
+        <br>
+
+        <input type="button" class="btn" value="C">
+        <input type="button" class="btn" value="DEL">
+        <input type="button" onclick=" handleButtonClick(event)" class="btn equal-btn" value="=">
+    </section>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
